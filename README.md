@@ -1,4 +1,4 @@
-# Architectural Basics
+## Architectural Basics
 
 # Number of layers:
 It has 8 convolution layers of which 6 of them uses 3x3 kernel, one uses 1x1 and one uses 4x4 kernel.
