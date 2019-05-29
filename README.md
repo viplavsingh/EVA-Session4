@@ -14,8 +14,6 @@ The architecture uses one 1x1 convolution. This has been used to retain the same
 ## 3x3 convolutions
 The architecture uses 6 3x3 convolutions. 3x3 convolutions are mostly used.
 
-## Receptive Field
-
 ## Softmax
 Softmax has been used at the end. It converts the activations into probabilities which shows the maximum likelihood of a class.
 
@@ -36,8 +34,6 @@ Image Normalization is done as a part of the preprocessing. The image pixel valu
 ## Position of MaxPooling
 Maxpooling is used when we can see the edges and gradients. The receptive fields may differ depending on the dimension of image.
 In this case, we can use maxpooling at a receptive field of 5x5 since the dimension is small.
-
-## Concept of Transition Layer
 
 ## Number of epochs and when to increase them
 We generally begin with less number of epochs. If we see that loss is gradually decreasing and this trend goes till the end of 
